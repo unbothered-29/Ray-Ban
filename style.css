@@ -117,7 +117,7 @@ body {
 }
 
 #hleft .elem h1 {
-    position: absolute;
+    position: relative;
     line-height: 0.9;
     font-family: "kajiro";
     color: white;
@@ -125,6 +125,7 @@ body {
     font-size: 9.7vw;
     top: 100%;
     left: 0;
+    top: 0;
 }
 
 #hleft button {

@@ -44,7 +44,7 @@ body {
     height: 100vh;
     max-width: 1920px;
     /* background-color: rgba(128, 128, 128, 0.47); */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #nav {
@@ -109,14 +109,22 @@ body {
     overflow: hidden;
     align-items: flex-start;
     display: flex;
+    position: relative;
+}
+
+#hleft .elem h1:nth-child(1) {
+    top: 0;
 }
 
 #hleft .elem h1 {
+    position: absolute;
     line-height: 0.9;
     font-family: "kajiro";
     color: white;
     font-weight: 100;
     font-size: 9.7vw;
+    top: 100%;
+    left: 0;
 }
 
 #hleft button {
